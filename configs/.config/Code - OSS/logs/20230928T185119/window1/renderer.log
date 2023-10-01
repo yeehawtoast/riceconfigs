@@ -1,0 +1,2 @@
+2023-09-28 18:51:21.060 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/redneck/.config/picom/picom.conf","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-09-28 18:51:25.390 [info] [perf] Render performance baseline is 90ms

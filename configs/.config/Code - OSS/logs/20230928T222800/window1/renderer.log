@@ -1,0 +1,2 @@
+2023-09-28 22:28:02.242 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/redneck/.config/kitty/kitty.conf","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-09-28 22:28:06.145 [info] [perf] Render performance baseline is 59ms
