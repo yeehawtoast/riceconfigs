@@ -15,10 +15,10 @@ set $mod Mod4
 # is used in the bar {} block below.
 #font pango:monospace 8
 exec_always --no-startup-id "picom --config /home/redneck/.config/picom.conf"
-
+exec_always --no-startup-id "nitrogen --restore"
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:Hack Nerd Mono 12
+font pango: Jetbrains Mono 14
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
@@ -198,29 +198,28 @@ gaps outer 5
 #########
 
 # class                 border  bground text    indicator child_border
-client.focused          #BABBF1 #303446 #C6D0F5 #F2D5CF   #BABBF1
-client.focused_inactive #949CBB #303446 #C6D0F5 #F2D5CF   #949CBB
-client.unfocused        #949CBB #303446 #C6D0F5 #F2D5CF   #949CBB
-client.urgent           #EF9F76 #303446 #FFFFFF #EF9F76   #EF9F76
-client.placeholder      #949CBB #303446 #C6D0F5 #949CBB   #949CBB
+client.focused          #583A24 #E9E1C3 #585148 #158F9C   #583A24
+client.focused_inactive #583A24 #E9E1C3 #585148 #50620F   #583A24
+client.unfocused        #583A24 #E9E1C3 #585148 #50620F   #583A24
+client.urgent           #583A24 #E9E1C3 #7A1405 #7A1405   #7A1405
+client.placeholder      #583A24 #E9E1C3 #585148 #50620F   #583A24
 
-client.background       #303446
-
+client.background       #E9E1C3
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
         status_command i3status
     
-    colors {
-    background #303446
-    statusline #C6D0F5
-    separator  #949CBB
+colors {
+    background #E9E1C3
+    statusline #585148
+    separator  #413D37
 
-    focused_workspace  #BABBF1 #626880 #C6D0F5
-    active_workspace   #949CBB #303446 #C6D0F5
-    inactive_workspace #949CBB #292C3C #C6D0F5
-    urgent_workspace   #EF9F76 #303446 #C6D0F5
-    binding_mode       #EF9F76 #303446 #C6D0F5
-    }
+    focused_workspace  #50620F #E9E1C3 #50620F
+    active_workspace   #984E06 #E9E1C3 #984E06
+    inactive_workspace #918A83 #E9E1C3 #918A83
+    urgent_workspace   #7A1405 #E9E1C3 #7A1405
+    binding_mode       #7A1405 #E9E1C3 #7A1405
+  }
 }
